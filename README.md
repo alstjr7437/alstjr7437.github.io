@@ -1,2 +1,8 @@
-# alstjr7437.github.io
-## 김민석의 자기소개서 파일입니다.
+### 김민석의 io 홈페이지 파일입니다.
+
+
+# 링크 [![Blog Badge](http://img.shields.io/badge/-git-white?style=flat-square&logo=Git&link=https://alstjr7437.github.io)](https://alstjr7437.github.io)
+
+
+
+
