@@ -93,19 +93,9 @@
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="../assets/img/portfolio/portfolio-4.jpg" alt="">
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
-
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -115,16 +105,24 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>카테고리</strong>: Web</li>
+                <li><strong>기술</strong>: HTML, CSS, JavaScript </li>
+                <li><strong>프로젝트 날짜</strong>: 2021년도 2학기</li>
+                <li><strong>자료</strong>: <a href="../assets/project/ToDo/DoList.html">작동 링크</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>ToDo 웹 사이트</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                JavaScript를 이용하여 구현한 ToDo Web입니다.<br><br>
+                0. 우측 상단 JavaScript를 이용한 현재시간 표시 기능<br>
+                1. 기간과 할 일을 입력하기<br>
+                2. 초록부분(ToDoList)에 남은 시간에 따라 변환하는 해야할 일 <br>
+                3. 일을 마쳤다면 체크를 눌러 빨간부분(DoneList)로 옮기기<br>
+                4. 공용으로 localStroge에 저장 가능<br>
+                5. 따로 아이디와 비밀번호를 생성하여 각 인원의 ToDo도 정리 가능<br>
+                문제점) 계정 삭제 구현X <br><br>
+                아직 데이터베이스 연동과 서버관련하여 배우지 않아서 JavaScript와 localStroge를 이용한 ToDO 웹 구현 프로젝트입니다.
               </p>
             </div>
           </div>
@@ -164,6 +162,29 @@
   <script src="../assets/vendor/typed.js/typed.min.js"></script>
   <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

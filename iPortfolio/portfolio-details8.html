@@ -93,19 +93,12 @@
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="../assets/img/portfolio/portfolio-8.jpg" alt="">
                 </div>
-
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <video src="../assets/project/ABC/[감자와할미] 시연 영상.mp4" width="100%" height="100%"controls>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
-
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -115,20 +108,27 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>카테고리</strong>: Web</li>
+                <li><strong>기술</strong>: Python, Yolov5, eel, roboflow, html, css, JavaScript </li>
+                <li><strong>프로젝트 날짜</strong>: 2022년도 여름방학 ~ 2022년도 2학기</li>
+                <li><strong>자료</strong>: <a href="https://github.com/alstjr7437/alstjr7437.github.io/tree/main/assets/project/ABC">발표 자료 영상 등</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>ABC(AI Bakery Cashier) AI 기술을 이용한 빵집 캐셔</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Yolov5를 이용하여 AI 기술을 인식시킨 빵집 캐셔입니다.<br><br>
+                0. 프로그램 실행<br>
+                1. 사려는 빵을 트레이에 담아 카메라에 인식<br>
+                2. 자동으로 빵의 종류와 갯수 판별 후 확인 기능<br>
+                3. 영수증 출력 및 계산 부분<br>
+                4. 이전으로 다시 계산 가능<br>
+                5. 매출 확인 가능<br><br>
+                미완성인 부분(영수증 출력 등은 우선 html 파일로 작성)
               </p>
             </div>
           </div>
-
+          
         </div>
 
       </div>
@@ -164,6 +164,30 @@
   <script src="../assets/vendor/typed.js/typed.min.js"></script>
   <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
