@@ -540,6 +540,27 @@ section {
   border: 2px solid #1f5297;
 }
 
+.resume .resume-toggle {
+  color: #149ddd;
+  border-color: #149ddd;
+  font-weight: 600;
+  padding: 8px 24px;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.resume .resume-toggle:hover,
+.resume .resume-toggle:focus {
+  background: #149ddd;
+  border-color: #149ddd;
+  color: #fff;
+  box-shadow: none;
+}
+
+.resume .resume-toggle i {
+  margin-left: 6px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/

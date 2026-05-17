@@ -224,4 +224,18 @@
     })
   });
 
+  /**
+   * Resume school-timeline toggle label
+   */
+  const schoolTimeline = select('#schoolTimeline')
+  if (schoolTimeline) {
+    const toggleBtn = document.querySelector('[data-bs-target="#schoolTimeline"]')
+    schoolTimeline.addEventListener('shown.bs.collapse', () => {
+      toggleBtn.innerHTML = '🎓 학교 학습 타임라인 접기 <i class="bi bi-chevron-up"></i>'
+    })
+    schoolTimeline.addEventListener('hidden.bs.collapse', () => {
+      toggleBtn.innerHTML = '🎓 학교 학습 타임라인 펼쳐보기 <i class="bi bi-chevron-down"></i>'
+    })
+  }
+
 })()
