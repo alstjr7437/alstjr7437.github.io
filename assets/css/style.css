@@ -452,6 +452,33 @@ section {
   background-color: #149ddd;
 }
 
+.skills .skill-group h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #050d18;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #dce8f8;
+}
+
+.skills .skill-group ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills .skill-group ul li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.skills .skill-group ul li i {
+  font-size: 16px;
+  margin-right: 8px;
+  color: #149ddd;
+  line-height: 0;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
