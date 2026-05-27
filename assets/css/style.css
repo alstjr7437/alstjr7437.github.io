@@ -501,7 +501,6 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
@@ -585,7 +584,6 @@ section {
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
-  text-transform: uppercase;
   color: #272829;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
